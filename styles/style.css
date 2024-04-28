@@ -8,7 +8,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
     background-color: #1F2937;
     color: #E5E7eb;
@@ -28,5 +28,18 @@ footer {
 .main {
     display: flex;
     flex-direction: column; 
-    min-height: 25vh;   
+    min-height: 25vh; 
+    flex: 1 0 auto;  
+}
+
+.sec-one {
+    background-color: #1f2937;
+}
+
+.sec-three {
+    background-color: #e5e7eb;
+}
+
+.subparts {
+    flex: 1 0 auto;
 }
