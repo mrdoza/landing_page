@@ -11,18 +11,22 @@ header {
     justify-content: space-around;
     align-content: center;
     background-color: #1F2937;
+}
+
+.head-title {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+a {
+    text-decoration: none;
     color: #E5E7eb;
+    font-size: 18px;
+    margin: 0 8px;
 }
 
 .header-links {
     margin: 20px;
-}
-
-footer {
-    text-align: center;
-    background-color: #1F2937;
-    color: #E5E7eb;
-    margin: 0;
 }
 
 .main {
@@ -34,12 +38,69 @@ footer {
 
 .sec-one {
     background-color: #1f2937;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-content: center;
 }
 
+button {
+    background-color: #3882f6;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    color: #E5E7eb;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.hero2 {
+    font-size: 18px;
+    color: #E5E7eb;
+}
+
+figure {
+    background-color: gray;
+    color: #E5E7eb;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+figure p {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+    justify-content: center;
+}
 .sec-three {
     background-color: #e5e7eb;
 }
 
 .subparts {
     flex: 1 0 auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7eb;
+    margin: 0;
 }
