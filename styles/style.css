@@ -1,9 +1,10 @@
 body {
     margin: 0;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1 1 auto;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
     justify-content: space-around;
     align-content: center;
     background-color: #1F2937;
+    margin-bottom: 0;
 }
 
 .head-title {
@@ -33,15 +35,16 @@ a {
     display: flex;
     flex-direction: column; 
     min-height: 25vh; 
-    flex: 1 0 auto;  
+    flex: 1 1 auto;  
 }
 
 .sec-one {
     background-color: #1f2937;
     display: flex;
-    flex: 1 0 auto;
+    flex: 1 1 auto;
     justify-content: center;
     align-content: center;
+    gap: 25px;
 }
 
 button {
@@ -67,20 +70,20 @@ button {
     color: #E5E7eb;
 }
 
-figure {
-    background-color: gray;
-    color: #E5E7eb;
-    width: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.trees {
     display: flex;
-}
-
-figure p {
-    display: flex;
-    flex: 1 0 auto;
+    flex: 1 1 0;
     justify-content: center;
     align-items: center;
+    min-width: 0;
+    min-height: 0;
+}
+
+image {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    min-height: 0;
 }
 
 .sec1-left {
@@ -90,12 +93,48 @@ figure p {
     margin-left: 100px;
     justify-content: center;
 }
+
+.sec-two {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fish_pics {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    text-align: center;
+    text-wrap: wrap;
+} 
+
+.fish_pics img {
+    border: 3px solid #3882f6;
+    border-radius: 10%;
+}
 .sec-three {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    max-width: 500px;
+    margin-bottom: 0;
+}
+.sig {
+    display: flex;
+    align-content: baseline;
+    margin-top: 0;
+    font-weight: bold;
 }
 
 .subparts {
-    flex: 1 0 auto;
+    flex: 1 1 auto;
 }
 
 footer {
