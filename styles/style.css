@@ -131,6 +131,8 @@ image {
     align-content: baseline;
     margin-top: 0;
     font-weight: bold;
+    max-width: 500px;
+    text-align: end;
 }
 
 .subparts {
