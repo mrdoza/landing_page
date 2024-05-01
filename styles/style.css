@@ -1,147 +1,174 @@
 body {
-    margin: 0;
-    /* min-height: 100vh; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex: 1 1 auto;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* flex: 1 1 auto; */
 }
 
-.top {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #1F2937;    
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
 }
 
-.head {  
-    flex: 1;
-    font-size: 24px;
-    color: #f9faf8;   
-    margin-left: 50px; 
+.logo {
+  flex: 1 1 auto;
+  color: #f9faf8;
+  flex: 1 1 auto;
+  margin-left: 100px;
 }
 
 .hlinks {
-    flex: 1;
-    display: flex;
+  flex: 1 1 auto;
 }
 
 a {
-    text-decoration: none;
-    color: #E5E7eb;
-    font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-left: 20px;
 }
 
 .main {
-    display: flex;
-    flex-direction: column;   
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
 }
 
 .sec-one {
-    background-color: #1f2937;
-    display: flex;
-    flex: 1 1 auto;
-    justify-content: space-around;
-    align-items: center;
+  background-color: #1f2937;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  gap: 300px;
+  align-items: center;
 }
 
 button {
-    background-color: #3882f6;
-    border: 0;
-    width: 100px;
-    height: 30px;
-    color: #E5E7eb;
-    border-radius: 5px;
-    font-weight: bold;
+  background-color: #3882f6;
+  border: 0;
+  width: 100px;
+  height: 30px;
+  color: #e5e7eb;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .hero {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: bolder;
-    margin-bottom: 0;
-    margin-top: 0;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .hero2 {
-    font-size: 18px;
-    color: #E5E7eb;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .trees {
-    flex: 1 1 auto;
-    min-width: 100px;
-    max-width: 300px;
+  flex: 1 1 auto;
+  min-width: 100px;
+  max-width: 300px;
 }
 
 image {
-    display: flex;
-    flex: 1 1 0;
-    
+  display: flex;
+  flex: 1 1 0;
 }
 
 .sec1-left {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    text-wrap: wrap;
-    max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-wrap: wrap;
+  max-width: 300px;
 }
 
 .sec-two {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .fish_pics {
-    display: flex;
-    flex: 1 1 auto;
-    justify-content: center;
-    text-align: center;
-    text-wrap: wrap;
-} 
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  text-align: center;
+  text-wrap: wrap;
+}
 
 .fish_pics img {
-    border: 3px solid #3882f6;
-    border-radius: 10%;
+  border: 3px solid #3882f6;
+  border-radius: 10%;
 }
 .sec-three {
-    background-color: #e5e7eb;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote {
-    max-width: 500px;
-    margin-bottom: 0;
+  max-width: 500px;
+  margin-bottom: 0;
+  text-align: center;
 }
 .sig {
-    margin-top: 0;
-    font-weight: bold;
-    max-width: 500px;
-    text-align:right;
+  margin-top: 0;
+  font-weight: bold;
+  max-width: 500px;
+  justify-self: end;
+  
 }
 
 .sec-four {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.bluebox {
+  width: 800px;
+  height: 100px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1em;
+}
+
+.call {
     align-items: center;
-    flex: 1;
+}
+
+.getout {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.dbutton {
+    border-radius: 10%;
+    border: 3px solid #e5e7eb;
 }
 
 .subparts {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 footer {
-    text-align: center;
-    background-color: #1F2937;
-    color: #E5E7eb;
-    margin: 0;
+  text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  margin: 0;
 }
