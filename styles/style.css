@@ -3,13 +3,13 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; 
   /* flex: 1 1 auto; */
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #1f2937;
 }
@@ -17,7 +17,6 @@ header {
 .logo {
   flex: 1 1 auto;
   color: #f9faf8;
-  flex: 1 1 auto;
   margin-left: 100px;
 }
 
